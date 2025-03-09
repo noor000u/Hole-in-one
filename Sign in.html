@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resort Hole in One</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f4f4f4;
+        }
+
+        .button-container {
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .button {
+            border: none;
+            color: white;
+            background-color: #2a5341;
+            padding: 12px 20px;
+            font-size: 18px;
+            text-decoration: none;
+            border-radius: 25px;
+            transition: 0.3s;
+            box-shadow: 2px 2px 6px rgba(240, 239, 239, 0.4);
+        }
+
+        .button:hover {
+            background-color: #04AA6D;
+            transform: scale(1.1);
+        }
+
+        .contact-box {
+            background: white;
+            width: 90%;
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .main-title {
+            font-size: 28px;
+            color: #2a5341;
+        }
+
+        .subtitle {
+            color: #555;
+            margin-bottom: 20px;
+        }
+
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            display: block;
+        }
+
+        .submit-btn {
+            background: #2a5341;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 0.3s;
+            width: 100%;
+        }
+
+        .submit-btn:hover {
+            background: #04AA6D;
+        }
+    </style>
+</head>
+<body>
+    <div class="button-container">
+        <a href="C:\Users\noor almasri\Desktop\Website\home.html" class="button">Home</a>
+        <a href="C:\Users\noor almasri\Desktop\Website\Services.html" class="button">Services</a>
+        <a href="C:\Users\noor almasri\Desktop\Website\Deals & Offers.html" class="button">Offers</a>
+        <a href="C:\Users\noor almasri\Desktop\Website\About.html" class="button">About Us</a>
+        <a href="C:\Users\noor almasri\Desktop\Website\golf.html" class="button">Golf</a>
+
+    </div>
+
+    <div class="contact-box">
+        <h1 class="main-title">Let's Discuss Your Needs</h1>
+        <p class="subtitle">We're here to answer your questions and provide the best solutions for you</p>
+        
+        <form id="contactForm" class="contact-form">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit" class="submit-btn">Send Message</button>
+        </form>
+    </div>
+</body>
+</html>

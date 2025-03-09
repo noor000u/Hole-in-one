@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - SeaView Resort</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f4f4f4;
+        }
+
+        .button-container {
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .button {
+            border: none;
+            color: white;
+            background-color: #2a5341;
+            padding: 12px 20px;
+            font-size: 18px;
+            text-decoration: none;
+            border-radius: 25px;
+            transition: 0.3s;
+            box-shadow: 2px 2px 6px rgba(240, 239, 239, 0.4);
+        }
+
+        .button:hover {
+            background-color: #04AA6D;
+            transform: scale(1.1);
+        }
+
+        .text-container {
+            margin-top: 20px;
+            text-align: center;
+            color: #333;
+        }
+
+        .text-container p {
+            margin: 5px 0;
+            color: #555;
+            font-size: 18px;
+        }
+
+        .text-container p:first-child {
+            font-size: 28px;
+            font-weight: bold;
+            color: #2a5341;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            padding: 20px 20px;
+            margin-top: 20px;  
+        }
+
+        .card {
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            width: 300px;
+            text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            cursor: pointer;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+            box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        .btn {
+            background-color: #2a5341;
+            color: white;
+            padding: 10px 15px;
+            border-radius: 20px;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 15px;
+            transition: 0.3s;
+        }
+
+        .accessibility {
+            position: fixed;
+            bottom: 20px;
+            left: 20px;
+            background: #ffffff;
+            padding: 10px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px #06823a;
+            display: flex;
+            gap: 5px;
+        }
+
+        .accessibility button {
+            padding: 10px;
+            font-size: 14px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            background: #06823a;
+            color: #000000;
+        }
+
+        .accessibility button:hover {
+            background: #ffffff;
+        }
+    </style>
+</head>
+<body>
+    <div class="button-container">
+        <a href="C:\Users\noor almasri\Desktop\Website\golf.html" class="button">Golf</a>
+        <a href="C:\Users\noor almasri\Desktop\Website\About.html" class="button">About Us</a>
+        <a href="C:\Users\noor almasri\Desktop\Website\Deals & Offers.html" class="button">Offers</a>
+        <a href="C:\Users\noor almasri\Desktop\Website\Services.html" class="button">Services</a>
+        <a href="C:\Users\noor almasri\Desktop\Website\home.html" class="button">Home</a>
+    </div>
+    <div class="content">
+        <section>
+            <h2 class="section-title">About SeaView Resort</h2>
+            <p class="about-description">
+                SeaView Resort is one of the premier luxury destinations located on the breathtaking coastline of Portugal. Established in 2015, the resort offers a unique blend of world-class golf courses, top-tier amenities, and relaxation with stunning ocean views. The resort is designed to provide guests with an unforgettable experience, whether they are golf enthusiasts or looking to unwind in a peaceful setting by the sea.
+            </p>
+            <p class="about-description">
+                With three championship golf courses designed by legendary architects, SeaView Resort has become a sought-after destination for golfers from all over the world. In addition to golf, the resort features a spa, gourmet restaurants, and a variety of recreational activities, ensuring there is something for everyone to enjoy.
+            </p>
+        </section>
+        
+        <div class="container">
+            <div class="card">
+                <h3>Luxury Golf</h3>
+                <p>Experience world-class golf courses designed by renowned architects.</p>
+                <a href="C:\Users\noor almasri\Desktop\Website\golf.html" class="btn">Learn More</a>
+            </div>
+
+            <div class="card">
+                <h3>Exclusive Offers</h3>
+                <p>Check out our special offers and packages for the ultimate getaway.</p>
+                <a href="C:\Users\noor almasri\Desktop\Website\Deals & Offers.html" class="btn">Learn More</a>
+            </div>
+        </div>
+    </div>
+    
+    <div class="accessibility">
+        <button id="accessibility-zoom-in" onclick="document.body.style.zoom='1.2'">Zoom In</button>
+        <button id="accessibility-zoom-out" onclick="document.body.style.zoom='1'">Zoom Out</button>    </div>
+    </div>
+
+</body>
+</html>
